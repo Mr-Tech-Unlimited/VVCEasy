@@ -8,7 +8,7 @@
 * Pastebin: <https://pastebin.com/u/MartinEesmaa>
 * GitHub: [MartinEesmaa](https://github.com/MartinEesmaa)
 * GitLab: [MartinEesmaa](https://gitlab.com/MartinEesmaa)
-* LinkedIn: <https://www.linkedin.com/in/martin*eesmaa*4b355587/>
+* LinkedIn: <https://www.linkedin.com/in/martin-eesmaa-4b355587/>
 * Wikipedia: [MartinHero13](https://en.wikipedia.org/wiki/User:MartinHero13)
 * Imgur: [MartinHero13](https://imgur.com/user/MartinHero13)
 * Doom9 Forum: [MartinEesmaa](https://forum.doom9.org/member.php?u=248978)
