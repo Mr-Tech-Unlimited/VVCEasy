@@ -10,6 +10,7 @@ See the lists:
 - Thanks, Artem! [VVCEasy thread](https://forum.doom9.org/showthread.php?p=1974413#post1974413)
 - Thanks, Mark Litwintschik! [VVC encoding](https://tech.marksblogg.com/vvc-encoding.html)
 - Dziękuje, Snow Lynx! [VVCEasy pakiet do konwersji do H.266 (VVC)](https://www.youtube.com/watch?v=xo6o-LuooXA) (Polish only and English AI audio track)
+- ¡Gracias, CrazyHacks! [Cómo Reproducir y Editar Audio xHE-AAC en Windows 10](https://www.youtube.com/watch?v=jl88Lj1K64c)
 
 And thank you all for using VVCEasy with prebuilt binaries, custom builds and more!
 
