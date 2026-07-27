@@ -1,4 +1,4 @@
-# Martin Eesmaa's social media links
+# Martin Eesmaa's official social media links from VVCEasy
 
 * Official Martin Eesmaa's website: <https://martineesmaa.org>
 * Linktree: <https://linktr.ee/MartinEesmaa>
@@ -6,6 +6,7 @@
 * Instagram: <https://instagram.com/martinhero12>
 * Reddit: [u/MartinEesmaa](https://reddit.com/u/MartinEesmaa)
 * Lemmy.world: [u/MartinEesmaa](https://lemmy.world/u/MartinEesmaa)
+* Lemmy.ml: [u/MartinEesmaa](https://lemmy.ml/u/MartinEesmaa)
 * Tumblr: [martineesmaa](https://martineesmaa.tumblr.com)
 * Pastebin: <https://pastebin.com/u/MartinEesmaa>
 * GitHub: [MartinEesmaa](https://github.com/MartinEesmaa)
