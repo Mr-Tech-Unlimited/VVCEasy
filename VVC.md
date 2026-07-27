@@ -1,4 +1,4 @@
-![vvc](Screenshots/VVC.svg)
+![vvc](assets/Screenshots/VVC.svg)
 
 # Versatile Video Codec binaries
 
@@ -23,13 +23,13 @@ Fraunhofer HHI VVC binaries is just standard easy tool, which allows to encode &
 Old screenshots in 2021 of three desktop operating systems:
 
 Windows:
-![WindowsVVENCDEC](Screenshots/WindowsVVENCDEC.png)
+![WindowsVVENCDEC](assets/Screenshots/WindowsVVENCDEC.png)
 
 Mac:
-![MacOSterminal12](Screenshots/MacOSterminal12.png)
+![MacOSterminal12](assets/Screenshots/MacOSterminal12.png)
 
 Linux:
-![UbuntuVVENCDEC](Screenshots/UbuntuVVENCDEC.png)
+![UbuntuVVENCDEC](assets/Screenshots/UbuntuVVENCDEC.png)
 
 ## uvg266 (VVC Scalable encoder tool)
 
@@ -46,7 +46,7 @@ For Windows 98/ME/2000 to Windows XP users, please use command argument `--no-cp
 
 Tested using Windows 98 (First Edition) with PCem v17 Pentium II 300MHZ to encode raw Y4M uncompressed video file into VVC 8-bit raw video file using uvg266:
 
-![uvg266encwin](Screenshots/uvg266win-MartinEesmaa.png)
+![uvg266encwin](assets/Screenshots/uvg266win-MartinEesmaa.png)
 
 ## OpenVVC (VVC decoder open license)
 
@@ -61,7 +61,7 @@ OpenVVC is another VVC decoder library licensed under LGPLv2.1.
 
 Tested using Windows ME to decode old VVC video file 10-bit SDR into raw YUV uncompressed video:
 
-![openvvcwin](Screenshots/openvvcwin-MartinEesmaa.png)
+![openvvcwin](assets/Screenshots/openvvcwin-MartinEesmaa.png)
 
 ### Minimum requirements
 
@@ -143,7 +143,7 @@ Also for decoding, use vvdec and also it is faster decoding for older (possible)
 
 ### Additional tests
 
-All VVC binaries are compiled after compiled and tested commons architectures with OS are working of x86, x86_64, arm64 and armv7.
+All VVC binaries are compiled and tested commons architectures with OS are working of x86, x86_64, arm64 and armv7.
 
 | OS arch | vvdec | vvenc | uvg266 | OpenVVC |
 | ---- | --- | --- | --- | --- |

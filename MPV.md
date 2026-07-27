@@ -6,11 +6,11 @@ MPV Windows/Linux/Android Player (libvvdec + xHE-AAC support) can play your VVC 
 
 Screenshot preview, see top-left information of toggle stats on Windows/Linux/Android device:
 
-![mpv-vvceasy-windows](Screenshots/mpv-vvceasy-windows.png)
+![mpv-vvceasy-windows](assets/Screenshots/mpv-vvceasy-windows.png)
 
-![mpvlinuxvvceasy](Screenshots/mpv-vvceasy-linux.png)
+![mpvlinuxvvceasy](assets/Screenshots/mpv-vvceasy-linux.png)
 
-![mpv-vvceasy-android](Screenshots/mpv-vvceasy-android.png)
+![mpv-vvceasy-android](assets/Screenshots/mpv-vvceasy-android.png)
 
 ## Download MPV Windows/Linux/Android Player (libvvdec + xHE-AAC plugin)
 
