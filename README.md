@@ -37,7 +37,7 @@ Windows/Mac/Linux source run (C#): Bin/Release or Debug/netX.x/VVCEasy.exe (afte
 | Discord ![Discord](https://img.shields.io/discord/974611343237869619) | <https://discord.gg/t54cADTbWW> |
 | Fluxer.app | <https://fluxer.gg/On1FkIkb> |
 | Reddit (r/VVC) | <https://reddit.com/r/VVC> |
-| AV1 Discord Community (below note) | <https://discord.gg/HSBxne3> |
+| AV1 Discord Community (see the note below) | <https://discord.gg/HSBxne3> |
 
 > [!NOTE]
 > Please note my first language is Estonian and it is not native due to my second English language. Some words may have incorrect and incomprehensible. The members of AV1 Discord Community including me can help about VVC issues.
@@ -65,43 +65,26 @@ However you're welcome to post in there or/and direct message for a little help.
 
 # All lists
 
-- [Donate to Martin Eesmaa using cryptocurrency](#donate-to-martin-eesmaa-for-a-cryptocurrencies)
-
+- [Donate to Martin Eesmaa](#donate-to-martin-eesmaa)
 - [Tests of VVC videos](#tests-of-vvc-videos)
-
 - [Prebuilt VVC binaries](#prebuilt-vvc-binaries)
-
   - [VLC InterDigital VTM VVC Plugin](INSTALLVLCPLUGIN/README.md)
-
   - [FFmpeg VVC En/Decoder & xHE-AAC support](FFMPEGVVC.md)
-
   - [MPV libvvdec + xHE-AAC support (Windows x64/Linux/Android only)](MPV.md)
-
   - [LAVFilters VVC version x64](LAVFilters/README.md)
-
   - [VVC binaries](VVC.md)
-
 - [Deprecated builds](#deprecated-builds)
-
 - [Compile for VVCEasy](#compile-for-vvceasy)
-
   - [VVCEasy Batchfile Compile](#vvceasy-batchfile-version-optional-windows-only)
-
   - [VVCEasy .NET Compile](#vvceasy-net-console-version-optional)
-
     - [Publish single .NET binary executable](#publish-single-net-binary-executable)
-
 - [GUI applications easy](#gui-applications-easy)
-
 - [Alternative bindings of CLI](#alternative-bindings-of-cli)
-
 - [Hard option (deprecated)](#hard-option-deprecated)
-
 - [FAQ](#faq-frequently-asked-questions)
-
 - [Credits & Licenses](#credits--licenses)
 
-# Donate to Martin Eesmaa for a cryptocurrencies
+# Donate to Martin Eesmaa
 
 - **BTC (BITCOIN):**
 
@@ -226,11 +209,11 @@ These VVC programs for decoding/encoding are listed:
 | Programs with website or GitHub link | Note | Creator |
 | --- | --- | --- |
 | [Fastflix](https://github.com/cdgriffith/FastFlix) | You might need to download my custom FFmpeg builds for decoding/encoding VVC using external libraries, rename to ffmpeg.exe and ffprobe.exe from my custom names only, no ffplay executable file required | Chris Griffith |
-| [VVC-GUI-Encoder](https://github.com/Disa-Kizonda/VVC-GUI-Encoder) | Only encoder | Disa Kizonda |
-| [aVVCator](https://github.com/gianni-rosato/aVVCator) | Only encoder & Linux only | Gianni Rosato |
+| [VVC-GUI-Encoder](https://github.com/Disa-Kizonda/VVC-GUI-Encoder) (deprecated) | Only encoder | Disa Kizonda |
+| [aVVCator](https://github.com/gianni-rosato/aVVCator) (deprecated) | Only encoder & Linux only | Gianni Rosato |
 | [VVenCguiEx](https://github.com/rigaya/VVenCguiEx) | Original Japanese language only for instructions and application (you can still translate), only encoder & Windows only, requires Aviutl (this may be medium or hard) | rigaya |
-| [VVConvert](https://vvconvert.app/) | Only encoder, encodes to VVC raw bitstream from any FFmpeg compatible video codecs, requires FFmpeg to open input video files | Alec Carter ([source code](https://github.com/alectr0/VVConvert)) |
-| [Av1ador](https://github.com/porcino/Av1ador) | This program allows to encode VVC while transcoding by preview and comparison from original video, includes other encoders as well. | porcino |
+| [VVConvert](https://vvconvert.app/) (deprecated) | Only encoder, encodes to VVC raw bitstream from any FFmpeg compatible video codecs, requires FFmpeg to open input video files | Alec Carter ([source code](https://github.com/alectr0/VVConvert)) |
+| [Av1ador](https://github.com/porcino/Av1ador) (deprecated) | This program allows to encode VVC while transcoding by preview and comparison from original video, includes other encoders as well. | porcino |
 
 ## Alternative bindings of CLI
 
@@ -240,9 +223,9 @@ These VVC programs for decoding/encoding are listed:
 | [xin26x](https://github.com/pigpeppa/xin26x) | Video Encoder for Now and Next Decade (please note it is partially open source and can only built target for Windows) | pigpeppa |
 | [vvdec-rs](https://github.com/cadubentzen/vvdec-rs) | Rust bindings for VVdeC | cadubentzen |
 | [vvenc-rs](https://github.com/cadubentzen/vvenc-rs) | Rust bindings for VVenC | cadubentzen |
-| [OpenVVC](https://github.com/OpenVVC/OpenVVC) | C binding of VVC decoder | OpenVVC (maintainer) |
+| [OpenVVC](https://github.com/OpenVVC/OpenVVC) | C binding of VVC decoder (last updated March 2022) | OpenVVC (maintainer) |
 
-# Hard option (deprecated)
+## Hard option (deprecated)
 
 If you're looking for a hard option of document information, you can check out there: [docs-old/advanced.md](docs-old/advanced.md)
 
