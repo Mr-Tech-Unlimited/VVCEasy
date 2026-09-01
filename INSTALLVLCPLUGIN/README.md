@@ -2,9 +2,9 @@
 
 # VLC Media Player (Inter Digital VLC VTM Decoder Plugin installation of Windows and Linux)
 
-This can work only for VLC 3.0.9.2 and later version (e.g., 3.0.17.4). VLC 4.0.0-dev or below than version 3 won't work.
+This can work only for VLC 3.0.9.2 and later. VLC 4.0.0-dev or below than version 3 won't work.
 
-To install Inter Digital VLC VTM Decoder Plugin, you need VLC Media Player latest version installed on your computer and supported 64-bit.
+To install Inter Digital VLC VTM Decoder Plugin, you need VLC Media Player latest version installed on your computer with 64-bit architecture.
 
 Step 1: Copy libvtmdec.dll and libvvcdecoder_plugin.dll into your VLC Media Player folder following folder: VLC/plugins/codec
 
@@ -30,11 +30,11 @@ Bottom left and right is VLC VTM plugins by Inter Digital Inc.
 
 ![windows8testbetweno266playerandvtmplugins](https://user-images.githubusercontent.com/88035011/160266040-863aa216-4694-4b2f-9957-4aa5b5a07ec3.png)
 
-***UPDATE of 19/04/2022 00:20 AEST:***
+***UPDATE of 18.04.2022 14:20 UTC:***
 
 Bug of Inter Digital VTM VLC Plugin:
 
-When you try to play your MPEG-TS or TS file, it will crash with your InterDigital VLC VTM Plugin installed on your VLC Media Player.
+When you try to play your MPEG-TS or TS file container, it will crash with your InterDigital VLC VTM Plugin installed on your VLC Media Player.
 
 Without InterDigital VLC VTM Plugin, playing MPEG-TS or TS file will play fine in your all original plugins (except VLC VTM Plugin) on your VLC Media Player.
 
@@ -58,19 +58,17 @@ Preview:
 
 ![preview](vvceasylinuxvlc.png)
 
-# Customize playback frame rate
+# Change playback frame rate
 
-If you want to customize playback frame rate per second, here's you can do in VLC media player if the VVC decoder plugin is installed.
-
-Here are steps:
+If you want to change playback frame rate per second in VLC of VVC decoder plugin, here's you can do steps:
 
 Step 1: Open VLC media player, go to Tools -> Preferences or press CTRL + P.
 
-Step 2: Toggle All in show settings, see the very bottom-left.
+Step 2: Toggle All in show settings in bottom left.
 
 Step 3: Search for "vvcdec" and you can see the available vvcdec options.
 
-You may see after steps following the screenshot:
+You may see after following the steps in screenshot:
 
 ![preferenceVLCvvcplugin](preferencesVLCvvcplugin.png)
 
@@ -81,10 +79,10 @@ Reference from original issue at [#61](https://github.com/MartinEesmaa/VVCEasy/i
 Explanation of CMAKE names:
 
 ```text
-VLC_INCLUDE_DIR = Includes of VLC SDK Plugins
-VLC_LIB_DIR = Libs of VLC SDK
+VLC_INCLUDE_DIR = Include header files of VLC SDK Plugins
+VLC_LIB_DIR = Libraries of VLC SDK
 VLC_PROGRAM_DIR = VLC Program directory
-VTMDEC_LIB_NAME = Name title of libvtmdec
+VTMDEC_LIB_NAME = Name title library of libvtmdec
 VTM_DIR = libvtmdec source files
 VLC_SRC_DIR = VLC Source files of the desktop version
 DVBPSI_DIR = DVBPSI source files
@@ -120,7 +118,7 @@ You need CMAKE GUI, build-essentials, VLC SDK (you have to get from Windows buil
 
 Please double-click downloaded compressed file and decompress VLC Windows SDK build to anywhere folder for example "~/vlc-3.0.9.2" or you can use CLI like 7-Zip `7z x vlc-3.0.9.2-win64.7z -o$HOME`.
 
-vlc_threads.h can be found in VLC folder/sdk/include/vlc/plugins. Search `val = poll(fds, nfds, timeout);` and comment the only one file, that's it.
+File of vlc_threads.h can be found in VLC folder/sdk/include/vlc/plugins. Search `val = poll(fds, nfds, timeout);` and comment the only one file, that's it.
 
 ![vscodethelinecommentvlcthreads](https://user-images.githubusercontent.com/88035011/175109219-6ea70dc4-b696-4045-a071-ef1306bc9634.png)
 
@@ -190,9 +188,9 @@ Original documentation must be in the original repository: <https://github.com/I
 
 ### Alternative using command line of Windows
 
-Open Windows Terminal/Windows Command Prompt and make sure you're in this current folder.
+Open Windows Terminal/Command Prompt, ensure you're in current this folder.
 
-Copy code following:
+Copy codes following:
 
 ```batch
 copy libvtmdec.dll "%programfiles%\VideoLAN\VLC\plugins\codec" 
@@ -202,10 +200,10 @@ copy libvvctsdemux_plugin.dll "%programfiles%\VideoLAN\VLC\plugins\demux"
 
 Note to VLC 4.0.0-dev users:
 
-The VVC video file cannot loaded by newest version of VLC 4.0.0-dev, because it is nightly build and it's unstable.
+The VVC video file cannot loaded by newest version of VLC 4.0.0-dev, because it is nightly build and it may be unstable.
 
 For more information about VLC 4.0.0-dev see: <https://www.theverge.com/2021/2/12/22279750/vlc-4-0-new-user-interface-videolan-media-player-video-music-movie-database-web-player>
 
-I tried to build two DLL files on VLC 4.0.0 SDK, but the compiler failed, so you must use VLC 3.0.9.2 or the latest of VLC 3 version branch.
+I tried to build two DLL files on VLC 4.0.0 SDK, but the compiler failed, so you can use VLC 3.0.9.2 or the latest of VLC 3 version branch.
 
 - Martin Eesmaa
